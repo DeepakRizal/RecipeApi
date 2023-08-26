@@ -17,7 +17,6 @@ Navigate to the project directory:
 bash
 Install the dependencies:
 bash
-Copy code
 npm install
 Set up your database connection:
 
@@ -29,17 +28,17 @@ To import sample recipe data from the recipes.json file into your database, use 
 To delete existing data before importing:
 
 bash
-Copy code
+
 node data/import-data.js --delete
 To import data without deleting existing data:
 
 bash
-Copy code
+
 node data/import-data.js --import
 Usage
 Run the API server:
 bash
-Copy code
+
 npm start
 The API will be available at http://localhost:4000.
 
@@ -49,12 +48,12 @@ If you want to populate your database with sample recipe data, you can use the p
 To delete existing data and import new data:
 
 bash
-Copy code
+
 node data/import-data.js --delete
 To import data without deleting existing data:
 
 bash
-Copy code
+
 node data/import-data.js --import
 Contributing
 Contributions are welcome! If you find any issues or want to enhance the API, feel free to open a pull request.
